@@ -4,7 +4,7 @@ from requests.api import post
 import json
 
 
-base_url = 'http://fernandoabueno.freeddns.org:4567'
+base_url = 'http://192.168.1.2:4567'
 
 
 def messages(request: HttpRequest):
